@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="assets/js/calc.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>FCC-Javascript Calculator</title>
+  </head>
+
+  <body>
+    <div id="calculator">
+      <div id="display"></div>
+      <button id="clear" onclick="clearDisplay()">AC</button>
+      <button id="seven" onclick="updateDisplay(7)">7</button>
+      <button id="eight" onclick="updateDisplay(8)">8</button>
+      <button id="nine" onclick="updateDisplay(9)">9</button>
+
+      <button id="divide" onclick="updateDisplay('divide')">/</button>
+      <button id="four" onclick="updateDisplay(4)">4</button>
+      <button id="five" onclick="updateDisplay(5)">5</button>
+      <button id="six" onclick="updateDisplay(6)">6</button>
+
+      <button id="multiply" onclick="updateDisplay('multiply')">*</button>
+      <button id="one" onclick="updateDisplay(1)">1</button>
+      <button id="two" onclick="updateDisplay(2)">2</button>
+      <button id="three" onclick="updateDisplay(3)">3</button>
+
+      <button id="subtract" onclick="updateDisplay('subtract')">-</button>
+      <button id="zero" onclick="updateDisplay(0)">0</button>
+      <button id="decimal" onclick="updateDisplay('decimal')">.</button>
+      <button id="equals" onclick="updateDisplay('equals')">=</button>
+      <button id="add" onclick="updateDisplay('add')">+</button>
+      <div id="secondaryDisplay"></div>
+    </div>
+    
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
